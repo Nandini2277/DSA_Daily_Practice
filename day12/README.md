@@ -15,7 +15,7 @@ problems solved:
     initial error: used sliding window on input with negatives
     mitigation: shrinking no longer lowers the sum, so switched to prefix sum + hashmap
 
- - fruit into baskets: {solved on gfg}
+ - fruit into baskets: {solved on leetcode}
     time complexity: O(n)
     space complexity: O(1)
     approach: keep a window with a dict that counts each fruit type inside it. if the dict has more than 2 types, move left forward until only 2 types remain, then record the window length as the max.
