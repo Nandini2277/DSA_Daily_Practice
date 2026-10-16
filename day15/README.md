@@ -1,4 +1,4 @@
-Day 14 DSA Gym 14 October 2026
+Day 15 DSA Gym 15 October 2026
 
 problems solved:
 - bubble sort: {solved on gfg}
