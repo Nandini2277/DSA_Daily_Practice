@@ -8,7 +8,7 @@ problems solved:
     initial error: writing count 1 after single chars
     mitigation: only write count when count > 1.
 
-- encode and decode strings: {solved on leetcode}
+- encode and decode strings: {solved on gfg}
     time complexity: O(total length)
     space complexity: O(total length)
     approach: encode each string as length + # + string. decode reads digits until #, then takes exactly length chars, so # inside strings is safe.
